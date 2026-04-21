@@ -1,0 +1,43 @@
+# Automaziot AI — אוטומציות AI
+
+> סוכנות ישראלית לפיתוח סוכני AI ואוטומציות לעסקים קטנים ובינוניים.
+> מתמחים בסוכני וואטסאפ בעברית, סוכני קול, אוטומציות לידים, ואינטגרציות CRM.
+> תל אביב + ניו יורק. מייסד: אייל יעקובי מילר. הקוד, ה-workflows וההגדרות
+> שייכים ללקוח — אין נעילה.
+
+## אודות
+- [אודות ומייסד](https://www.automaziot.ai/about)
+- [מדיניות עריכה](https://www.automaziot.ai/editorial-standards)
+- [הצהרת נגישות](https://www.automaziot.ai/accessibility)
+
+## שירותים (10 שירותים, מחירים בש״ח)
+- [סוכן וואטסאפ AI](https://www.automaziot.ai/services/whatsapp-agent): סוכן בעברית על WhatsApp Business API, 24/7, החל מ-₪3,500
+- [סוכן קול AI](https://www.automaziot.ai/services/voice-agent): שיחות נכנסות ויוצאות
+- [אוטומציית לידים](https://www.automaziot.ai/services/lead-automation)
+- [הקמת CRM](https://www.automaziot.ai/services/crm-setup): Zoho, HubSpot, Monday, Pipedrive, Salesforce
+- [אוטומציית מכירות](https://www.automaziot.ai/services/sales-automation)
+- [יומן ותיאומים](https://www.automaziot.ai/services/calendar-scheduling)
+- [אוטומציה למסחר אלקטרוני](https://www.automaziot.ai/services/ecommerce-automation)
+- [סוכני AI מותאמים אישית](https://www.automaziot.ai/services/custom-agents)
+- [ייעוץ AI](https://www.automaziot.ai/services/ai-consulting)
+- [כל השירותים](https://www.automaziot.ai/services)
+
+## מחירון
+- [מחירון מפורט (markdown)](https://www.automaziot.ai/pricing.md)
+- [עמוד מחירון](https://www.automaziot.ai/pricing)
+- טווח: ₪2,000 (CRM בסיסי) עד ₪25,000 (ייעוץ + יישום מלא)
+- רוב הלקוחות: ₪4,000–₪15,000 הקמה חד-פעמית
+
+## סיפורי הצלחה
+- [Nadlanist AI](https://www.automaziot.ai/case-studies/nadlanist-ai): פלטפורמת נדל״ן — פי 4 שיעור תגובה, זמן תגובה מתחת ל-30 שניות, כיסוי תקשורתי בוואלה, ICE ומעריב
+- [כל סיפורי ההצלחה](https://www.automaziot.ai/case-studies)
+
+## ידע
+- [מילון מונחים AI ואוטומציה](https://www.automaziot.ai/glossary): הגדרות לסוכן AI, LLM, n8n, WhatsApp Business API, CRM, RPA, ROI, ICP, Webhook, Token
+- [בלוג](https://www.automaziot.ai/blog)
+- [חדשות וכיסוי תקשורתי](https://www.automaziot.ai/news)
+
+## עוד
+- [יצירת קשר](https://www.automaziot.ai/contact)
+- [שאלות נפוצות](https://www.automaziot.ai/#faq)
+- [English version](https://www.automaziot.ai/llms.txt)

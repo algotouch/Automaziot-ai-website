@@ -1,0 +1,404 @@
+@import "tailwindcss";
+
+/* Drive Tailwind's `dark:` variant off the `.dark` class (applied by
+   ThemeProvider + the FOUC script), instead of the default
+   `prefers-color-scheme: dark` media query. Without this, the theme
+   toggle would only flip our custom CSS vars while every `dark:*`
+   utility stayed tied to the OS-level preference. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Light surfaces — cool neutrals that breathe with the teal brand. */
+  --color-paper: #F7F9FB;
+  --color-cream: #EDF1F5;
+  --color-surface: #FFFFFF;
+  --color-rule: #D7DEE6;
+  --color-rule-soft: #E6EBF1;
+
+  --color-ink-950: #0B0C0E;
+  --color-ink-900: #16181C;
+  --color-ink-800: #22262C;
+  --color-ink-700: #3A3F47;
+  --color-ink-500: #545B66;
+  --color-ink-400: #727983;
+  --color-ink-300: #A7ADB6;
+  --color-ink-200: #CDD2D9;
+  --color-ink-100: #E6E8EC;
+
+  --color-teal-50:  #E6F5F4;
+  --color-teal-100: #C2E8E5;
+  --color-teal-200: #8FD7D2;
+  --color-teal-300: #5BC6BF;
+  --color-teal-400: #36C6C0;
+  --color-teal-500: #1F9AA1;
+  --color-teal-600: #14707A;
+  --color-teal-700: #0E4767;
+  --color-teal-800: #0B365A;
+  --color-teal-900: #09283F;
+
+  --color-amber-50:  #FBF4E8;
+  --color-amber-500: #D97A3B;
+  --color-amber-600: #B55E25;
+
+  --color-emerald-50:  #EBF5EE;
+  --color-emerald-500: #1F8A58;
+
+  --color-rose-50:  #FCEFEC;
+  --color-rose-500: #C24B3A;
+
+  --font-sans: var(--font-heebo), "Heebo", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: var(--font-heebo), "Heebo", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif Hebrew", Georgia, serif;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  :root {
+    --scrollbar-track: #E6EBF1;
+    --scrollbar-thumb: #A8B4C2;
+    --scrollbar-thumb-hover: #1F9AA1;
+
+    /* Surface tokens — flip in .dark */
+    --c-page: var(--color-paper);
+    --c-cream: var(--color-cream);
+    --c-surface: var(--color-surface);
+    --c-rule: var(--color-rule);
+    --c-rule-soft: var(--color-rule-soft);
+    --c-text: var(--color-ink-900);
+    --c-text-strong: var(--color-ink-950);
+    --c-text-muted: var(--color-ink-500);
+    --c-text-subtle: var(--color-ink-400);
+  }
+
+  html { color-scheme: light; }
+  html.dark {
+    color-scheme: dark;
+    --scrollbar-track: #16181C;
+    --scrollbar-thumb: #2A2F36;
+    --scrollbar-thumb-hover: #1F9AA1;
+
+    --c-page: #0B0C0E;
+    --c-cream: #16181C;
+    --c-surface: #1A1C20;
+    --c-rule: #2A2F36;
+    --c-rule-soft: #22262C;
+    --c-text: #E6E8EC;
+    --c-text-strong: #FFFFFF;
+    --c-text-muted: #A7ADB6;
+    --c-text-subtle: #7A828D;
+
+    /* Flip Tailwind utility tokens that resolve via var(--color-*) so
+       bg-surface / bg-paper / bg-cream / ring-rule / border-rule /
+       ring-rule-soft / border-rule-soft adapt to the dark surface
+       instead of staying locked to their light-mode values.
+       (Tailwind 4 auto-generates these utilities from @theme and they
+       outrank the legacy .bg-surface/.bg-cream/.bg-paper custom
+       utilities in the cascade — overriding the --color-* vars here is
+       the single source of truth.) */
+    --color-paper: #0B0C0E;
+    --color-cream: #16181C;
+    --color-surface: #1A1C20;
+    --color-rule: #2A2F36;
+    --color-rule-soft: #22262C;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background: var(--c-page);
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  body {
+    background: var(--c-page);
+    color: var(--c-text);
+    font-feature-settings: "cv11", "ss01", "ss03", "kern";
+    font-variant-numeric: tabular-nums;
+    line-height: 1.65;
+    overflow-x: hidden;
+    transition: background-color 180ms ease, color 180ms ease;
+  }
+
+  /* Refined scrollbar */
+  ::-webkit-scrollbar { width: 12px; height: 12px; }
+  ::-webkit-scrollbar-track { background: var(--scrollbar-track); }
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 10px;
+    border: 3px solid var(--scrollbar-track);
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }
+
+  * { scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track); }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    line-height: 1.04;
+    letter-spacing: -0.026em;
+    font-weight: 800;
+    color: var(--c-text-strong);
+  }
+
+  ::selection {
+    background: var(--color-teal-500);
+    color: white;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-teal-500);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .container-site {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+  @media (min-width: 768px) {
+    .container-site { padding-inline: 40px; }
+  }
+
+  .text-balance { text-wrap: balance; }
+  .text-pretty  { text-wrap: pretty; }
+
+  .font-display { font-family: var(--font-display); }
+  .font-serif { font-family: var(--font-serif); }
+
+  /* Theme-aware surface utilities */
+  .bg-paper    { background: var(--c-page); }
+  .bg-cream    { background: var(--c-cream); }
+  .bg-surface  { background: var(--c-surface); }
+  .ring-rule   { box-shadow: inset 0 0 0 1px var(--c-rule); }
+  .text-muted  { color: var(--c-text-muted); }
+  .text-subtle { color: var(--c-text-subtle); }
+
+  .bg-hero-light {
+    background:
+      radial-gradient(1200px 600px at 85% -20%, rgba(31,154,161,0.22), transparent 60%),
+      radial-gradient(900px 500px at -10% 10%, rgba(91,198,191,0.14), transparent 55%),
+      radial-gradient(700px 420px at 20% 120%, rgba(14,71,103,0.08), transparent 60%),
+      var(--c-page);
+  }
+
+  html.dark .bg-hero-light {
+    background:
+      radial-gradient(1200px 600px at 85% -20%, rgba(31,154,161,0.22), transparent 60%),
+      radial-gradient(900px 500px at -10% 10%, rgba(91,198,191,0.12), transparent 55%),
+      var(--c-page);
+  }
+
+  .bg-dot-grid {
+    background-image: radial-gradient(rgba(14,71,103,0.07) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+  html.dark .bg-dot-grid {
+    background-image: radial-gradient(rgba(143,215,210,0.10) 1px, transparent 1px);
+  }
+
+  .bg-line-grid {
+    background-image:
+      linear-gradient(to right, rgba(14,71,103,0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(14,71,103,0.05) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  html.dark .bg-line-grid {
+    background-image:
+      linear-gradient(to right, rgba(143,215,210,0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(143,215,210,0.06) 1px, transparent 1px);
+  }
+
+  /* Subtle mesh gradient for section backgrounds — lower opacity than hero */
+  .bg-mesh-soft {
+    background:
+      radial-gradient(640px 320px at 20% 10%, rgba(31,154,161,0.12), transparent 60%),
+      radial-gradient(520px 280px at 80% 90%, rgba(14,71,103,0.06), transparent 55%),
+      var(--c-page);
+  }
+  html.dark .bg-mesh-soft {
+    background:
+      radial-gradient(640px 320px at 20% 10%, rgba(31,154,161,0.14), transparent 60%),
+      radial-gradient(520px 280px at 80% 90%, rgba(91,198,191,0.06), transparent 55%),
+      var(--c-page);
+  }
+
+  /* A subtle SVG noise layer for paper-like depth */
+  .bg-noise {
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.35 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-size: 180px 180px;
+  }
+
+  .mask-fade-b {
+    mask-image: linear-gradient(180deg, black 60%, transparent 100%);
+    -webkit-mask-image: linear-gradient(180deg, black 60%, transparent 100%);
+  }
+  .mask-fade-sides {
+    mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+  }
+
+  .text-gradient-brand {
+    background: linear-gradient(120deg, var(--color-teal-600) 0%, var(--color-teal-400) 55%, var(--color-teal-500) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  html.dark .text-gradient-brand {
+    background: linear-gradient(120deg, var(--color-teal-300) 0%, var(--color-teal-400) 55%, var(--color-teal-200) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .shadow-soft { box-shadow: 0 1px 2px rgba(14,22,33,0.05), 0 10px 28px -12px rgba(14,71,103,0.14); }
+  .shadow-card { box-shadow: 0 1px 2px rgba(14,22,33,0.05), 0 20px 40px -20px rgba(14,71,103,0.2); }
+  .shadow-lift { box-shadow: 0 2px 6px rgba(14,22,33,0.06), 0 32px 60px -28px rgba(14,71,103,0.32); }
+  .shadow-glow-teal { box-shadow: 0 10px 40px -10px rgba(31,154,161,0.45); }
+  html.dark .shadow-soft { box-shadow: 0 1px 2px rgba(0,0,0,0.35), 0 12px 30px -12px rgba(0,0,0,0.6); }
+  html.dark .shadow-card { box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 20px 50px -20px rgba(0,0,0,0.7); }
+  html.dark .shadow-lift { box-shadow: 0 4px 14px rgba(0,0,0,0.45), 0 35px 80px -30px rgba(0,0,0,0.8); }
+  html.dark .shadow-glow-teal { box-shadow: 0 10px 40px -10px rgba(31,154,161,0.6); }
+
+  /* Animated gradient border — the inner card stays solid, the border moves */
+  .gradient-border {
+    position: relative;
+    isolation: isolate;
+  }
+  .gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: conic-gradient(from 0deg, transparent 0deg, var(--color-teal-400) 45deg, var(--color-teal-700) 90deg, transparent 180deg, transparent 360deg);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    animation: spin-slow 8s linear infinite;
+    opacity: 0.8;
+    pointer-events: none;
+  }
+
+  @keyframes spin-slow { to { transform: rotate(360deg); } }
+
+  [dir="rtl"] .flip-x { transform: scaleX(-1); }
+
+  .link-underline {
+    background-image: linear-gradient(var(--color-teal-500), var(--color-teal-500));
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 250ms var(--ease-out-smooth);
+  }
+  .link-underline:hover { background-size: 100% 1px; }
+
+  @keyframes floaty {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+  .animate-floaty { animation: floaty 6s ease-in-out infinite; }
+
+  @keyframes marquee-rtl { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @keyframes marquee-ltr { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+  .animate-marquee-rtl { animation: marquee-rtl 40s linear infinite; }
+  .animate-marquee-ltr { animation: marquee-ltr 40s linear infinite; }
+  .animate-marquee-slow { animation-duration: 60s; }
+  .pause-on-hover:hover { animation-play-state: paused; }
+
+  @keyframes tickUp {
+    from { opacity: 0.4; transform: translateY(3px); }
+    to   { opacity: 1;   transform: translateY(0); }
+  }
+  .animate-tick { animation: tickUp 280ms ease-out; }
+
+  @keyframes blink { 0%, 80%, 100% { opacity: 0.25; } 40% { opacity: 1; } }
+  .animate-blink-1 { animation: blink 1.2s infinite; animation-delay: 0ms; }
+  .animate-blink-2 { animation: blink 1.2s infinite; animation-delay: 200ms; }
+  .animate-blink-3 { animation: blink 1.2s infinite; animation-delay: 400ms; }
+
+  /* Soft pulsing ring for status dots and icons */
+  @keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 rgba(34,197,94,0.45); }
+    70% { box-shadow: 0 0 0 12px rgba(34,197,94,0); }
+    100% { box-shadow: 0 0 0 0 rgba(34,197,94,0); }
+  }
+  .pulse-ring { animation: pulse-ring 2s cubic-bezier(0.22, 1, 0.36, 1) infinite; }
+
+  /* Shimmer for skeletons */
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  .animate-shimmer {
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.06) 20%, rgba(255,255,255,0.16) 50%, rgba(255,255,255,0.06) 80%, transparent 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.6s linear infinite;
+  }
+  html.dark .animate-shimmer {
+    background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.02) 20%, rgba(255,255,255,0.06) 50%, rgba(255,255,255,0.02) 80%, transparent 100%);
+    background-size: 200% 100%;
+  }
+
+  /* Word-by-word hero reveal */
+  .reveal-word {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(14px);
+    animation: reveal-word-fwd 0.7s var(--ease-out-expo) forwards;
+  }
+  @keyframes reveal-word-fwd {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Perspective utilities */
+  .perspective-1000 { perspective: 1000px; }
+  .preserve-3d { transform-style: preserve-3d; }
+
+  /* Section dividers — a subtle hairline over cream */
+  .divider-hairline {
+    background: linear-gradient(90deg, transparent, var(--c-rule), transparent);
+    height: 1px;
+  }
+
+  /* Refined Y-rhythm helper */
+  .space-section > * + * { margin-top: clamp(4rem, 8vw, 8rem); }
+
+  /* Arrow that nudges on hover */
+  .arrow-nudge { transition: transform 250ms var(--ease-out-smooth); }
+  .group:hover .arrow-nudge { transform: translateX(4px); }
+  [dir="rtl"] .group:hover .arrow-nudge { transform: translateX(-4px); }
+
+  /* Soft border when hover wants a glow (Phase 8 card variant) */
+  .card-hover-border { transition: box-shadow 220ms var(--ease-out-smooth), transform 220ms var(--ease-out-smooth), border-color 220ms; }
+  .card-hover-border:hover {
+    box-shadow: 0 1px 2px rgba(14,22,33,0.04), 0 18px 40px -22px rgba(31,154,161,0.35), inset 0 0 0 1px var(--color-teal-200);
+    transform: translateY(-1px);
+  }
+  html.dark .card-hover-border:hover {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.4), 0 18px 40px -22px rgba(31,154,161,0.45), inset 0 0 0 1px var(--color-teal-500);
+  }
+}

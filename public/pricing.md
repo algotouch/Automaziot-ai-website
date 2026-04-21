@@ -1,0 +1,531 @@
+# Automaziot AI — Pricing
+
+Updated: 2026-04-21. All prices in ILS (₪). Setup is one-time; retainers are monthly and optional.
+Machine-readable version of https://www.automaziot.ai/en/pricing — generated from source of truth in content/services.ts.
+
+Engagement range across the catalog: ₪2,000 (entry CRM) → ₪25,000 (full AI consulting). Most clients: ₪4,000–₪15,000 one-time setup.
+
+Third-party monthly costs paid directly to vendors (not to Automaziot):
+- WhatsApp Business API: ~₪100–₪400/mo by volume
+- AI tokens (OpenAI / Anthropic): ~₪50–₪300/mo by volume
+
+## English services
+### WhatsApp Agent
+And doesn't sound like a bot. — at 2am
+Audience: Real estate, Clinics & scheduling, Retail & e-commerce, B2B services, Education & training
+Integrations: WhatsApp Business API, n8n, Zoho CRM, HubSpot, Monday, Pipedrive, Google Calendar, Outlook, Stripe
+Starting price: ₪3,500
+Outcomes:
+- Average response time under 10 seconds
+- 15–20 hours of manual replies saved every week
+- Higher close rates because no message goes ignored
+Pricing tiers:
+  - Starter: ₪3,500
+    - FAQ answering
+    - First-pass lead filtering
+    - Human handoff
+    - Single CRM integration
+  - Professional ★: ₪5,500
+    - Everything in Starter
+    - Active selling agent
+    - Quoting & closing
+    - Automated follow-ups
+    - 2 integrations
+  - Custom: ₪7,000+
+    - Everything in Pro
+    - Deep core-system integration
+    - Complex flows (payments, logistics)
+    - Extended monthly support
+
+> Third-party costs (WhatsApp API + AI tokens): ₪100–₪500/month based on volume. Setup is a one-time fee.
+
+### Voice AI Agent
+An AI voice agent that takes inbound calls, makes outbound ones, and books meetings in natural Hebrew — 24/7. — Never calls in sick.
+Audience: Medical clinics, Real estate agents, Emergency & maintenance services, Lawyers & accountants, Service businesses
+Integrations: Twilio, ElevenLabs, n8n, Google Calendar, Outlook, Zoho CRM, HubSpot, MyClinic, Clio
+Starting price: ₪6,000
+Outcomes:
+- 0 voicemails
+- Meetings booked straight into the calendar
+- Every call transcribed, summarized, logged to CRM
+Pricing tiers:
+  - Starter: ₪6,000
+    - Inbound only
+    - FAQ + booking
+    - Single calendar
+  - Professional ★: ₪9,000
+    - Inbound + outbound
+    - Multi-lingual
+    - Full CRM wiring
+    - AI transcripts & summaries
+  - Custom: ₪14,000+
+    - Multiple lines
+    - Complex sales flows
+    - Advanced analytics
+    - Extended SLA
+
+> Talk minutes: ~₪0.08–0.15/min (Twilio + ElevenLabs), billed direct to providers.
+
+### Lead Management
+A system that captures every lead from every source, filters, ranks, and routes — zero leads forgotten, zero spreadsheets. — Including the 3am one
+Audience: Real estate, Clinics, Professional services, B2B, Marketing agencies
+Integrations: n8n, Zoho CRM, HubSpot, Monday, Facebook Lead Ads, Google Ads, WhatsApp, Zapier
+Starting price: ₪4,000
+Outcomes:
+- First reply in under 30 seconds
+- 100% of leads logged to CRM
+- Reps only see leads with clear intent
+Pricing tiers:
+  - Starter: ₪4,000
+    - Up to 2 sources
+    - Basic filtering
+    - Email + CRM
+  - Professional ★: ₪7,000
+    - Unlimited sources
+    - AI filtering
+    - WhatsApp + CRM
+    - Auto follow-up
+    - Weekly reports
+  - Custom: Quote
+    - Complex integrations
+    - Multiple ICPs
+    - Advanced analytics
+    - Monthly retainer
+
+### Business Automation
+CRM, WhatsApp, invoicing, inventory, calendar — stop working in silos and start flowing together. — Wire it up once.
+Audience: Businesses with 3+ tools, Online stores, Marketing agencies, Sales teams, Professional services
+Integrations: n8n, Zoho, HubSpot, Monday, Pipedrive, Google Workspace, Microsoft 365, Stripe, Morning+, CardCom, Shopify, WooCommerce
+Starting price: ₪5,000
+Outcomes:
+- 15+ hours/week of manual work gone
+- 0 copy-paste errors across systems
+- Real-time data everywhere
+Pricing tiers:
+  - Starter: ₪5,000
+    - 2–3 systems connected
+    - Lead automation
+    - CRM sync
+  - Professional ★: ₪8,000
+    - Everything in Starter
+    - Billing + invoicing
+    - Follow-ups
+    - KPI dashboard
+  - Custom: Quote
+    - Custom APIs
+    - Complex AI bots
+    - Advanced analytics
+    - SLA
+
+> One-time setup. Third-party costs (APIs, SaaS) paid directly by you.
+
+### Smart CRM
+A CRM implementation that actually gets used — your data imported, automations live, team trained. — in two weeks
+Audience: SMBs, Retail, Clinics, Professional services, Real estate, legal, accounting
+Integrations: Zoho CRM, HubSpot, Monday CRM, Pipedrive, n8n, WhatsApp, Gmail, Outlook, Morning+, CardCom
+Starting price: ₪2,000
+Outcomes:
+- All customers and leads in one place
+- Activity logged automatically — no manual entry
+- Reports you actually read
+Pricing tiers:
+  - Entry: ₪2,000
+    - Basic setup
+    - Data import
+    - 1 user
+    - First automation
+  - Growth Engine ★: ₪4,000
+    - Up to 5 users
+    - Built-in automations
+    - WhatsApp wiring
+    - Reports
+  - Custom Empire: ₪6,000+
+    - Unlimited users
+    - Advanced integrations
+    - Custom workflows
+    - Dedicated training
+
+### Sales & Service Agent
+An AI agent that runs the full sales motion — from first touch to close — 24/7. — doesn't forget follow-ups, doesn't take commission
+Audience: Online stores, Real estate & development, Clinics & healthcare, Education & training, Professional services, SaaS
+Integrations: WhatsApp, Website chat, Instagram DM, n8n, Stripe, CardCom, Your CRM, Google Calendar
+Starting price: ₪4,000
+Outcomes:
+- Faster closes — response drops from 4 hours to 4 minutes
+- Your team only touches hot leads
+- Zero leads forgotten
+Pricing tiers:
+  - Starter: ₪4,000
+    - Customer service automation
+    - Product & FAQ answering
+  - Professional ★: ₪6,000
+    - Active selling
+    - Objection handling
+    - Upsell + cross-sell
+    - Auto follow-up
+  - Custom: ₪8,000+
+    - Full integration
+    - Multi-channel
+    - Complex B2B scripts
+    - Monthly retainer
+
+### Smart Scheduling
+Customers book, reschedule, and cancel on their own — via WhatsApp, web, or mobile. — Not one phone call.
+Audience: Dental & medical clinics, Coaches, Business consultants, Beauty salons, Private tutors, Professional service offices
+Integrations: Google Calendar, Outlook, MyClinic, ClickFunnels, Calendly, n8n, WhatsApp, Stripe, CardCom
+Starting price: ₪3,000
+Outcomes:
+- 40–60% drop in no-shows
+- Front-desk hours back to you
+- Zero double bookings
+Pricing tiers:
+  - Starter: ₪3,000
+    - WhatsApp booking
+    - Basic reminders
+    - Single calendar
+  - Professional ★: ₪4,500
+    - Self-service changes
+    - Custom reminders
+    - Deposit collection
+    - Waitlist
+  - Custom: ₪6,000
+    - Multi-calendar & services
+    - CRM wiring
+    - Complex logic (groups, resources)
+
+### E-commerce Automation
+Automation for Shopify / WooCommerce / multi-channel stores — from inventory to customer service on WhatsApp. — Inventory syncs. Support never sleeps.
+Audience: Shopify stores, WooCommerce, Multi-channel sellers, Dropshipping, D2C brands
+Integrations: Shopify, WooCommerce, WhatsApp, n8n, Klaviyo, Mailchimp, Facebook Shop, Instagram Shop, BO/Outvio/HFD
+Starting price: ₪4,000
+Outcomes:
+- +15–30% revenue from abandoned-cart recovery
+- All products sync across channels in real time
+- Order handling time drops 70%
+Pricing tiers:
+  - Starter: ₪4,000
+    - Abandoned cart recovery
+    - Order status
+    - Single channel
+  - Advanced ★: ₪6,000
+    - Multi-channel sync
+    - AI service
+    - Status pushes
+    - Reports
+  - Premium: ₪8,500
+    - Dropshipping, supplier contracts
+    - Advanced profitability reports
+    - AI analytics
+
+### AI Agents
+An autonomous AI agent that decides, acts and communicates — like an expert employee, 24/7. — not just answers questions
+Audience: Real estate (property queries, tour booking), E-commerce (recs, returns, tracking), Clinics (booking, reminders, form filling), Service cos (tickets, technician routing), Consulting (meeting mgmt, follow-up), Education (enrollment, course Q&A)
+Integrations: OpenAI / Anthropic / Gemini, n8n, Any CRM, WhatsApp, Twilio, ERP systems, Internal databases
+Starting price: ₪15,000
+Outcomes:
+- Automates processes a regular bot can't
+- Under 10s response on multi-step flows
+- Works across every channel, not just chat
+Pricing tiers:
+  - Single Agent: ₪15,000
+    - 1 complex business flow
+    - 3–5 tool integrations
+    - Retainer from ₪350/mo
+  - Dual Agents ★: ₪25,000
+    - 2 connected flows (sales + service)
+    - Shared knowledge
+    - Retainer
+  - Custom: Quote
+    - Multi-agent system
+    - Orchestration
+    - Strategic fit
+
+### Automation Consulting
+Automation & AI consulting from scoping to roadmap — with measurable deliverables, not 80-page PDFs. — let's find where your hours are actually leaking
+Audience: Businesses unsure where to begin with AI, Fast-scaling companies outgrowing manual processes, Mid-transformation organizations, Burnt by a failed prior attempt, Owners without time to research
+Integrations: n8n, Any CRM, AI tools, ERP systems, Custom systems
+Starting price: ₪5,000
+Outcomes:
+- A clear map of where time and money leak
+- A prioritized roadmap with estimated ROI
+- No more 'I don't know where to start'
+Pricing tiers:
+  - Basic Consulting: ₪5,000
+    - Diagnosis + roadmap
+    - Tech selection
+    - ROI forecast
+  - Comprehensive ★: ₪12,000–15,000
+    - Everything in Basic
+    - 4-week rollout support
+    - Team training
+    - Performance report
+  - Consulting + Full Implementation: ₪20,000–25,000
+    - Everything in Comprehensive
+    - 8-week full rollout
+    - 3-month post-launch support
+
+> All prices exclude VAT. Discovery call always free.
+## Hebrew services — שירותים בעברית
+### סוכן וואטסאפ
+ולא נשמע כמו בוט. — ב-02:00 בלילה
+Audience: נדל״ן ותיווך, קליניקות וזימון תורים, קמעונאות וחנויות, שירותי B2B, חינוך והדרכה
+Integrations: WhatsApp Business API, n8n, Zoho CRM, HubSpot, Monday, Pipedrive, Google Calendar, Outlook, Stripe
+Starting price: ₪3,500
+Outcomes:
+- זמן תגובה ממוצע: מתחת ל-10 שניות
+- 15–20 שעות של תשובות ידניות נחסכות בכל שבוע
+- שיעור סגירה שעולה כי אף הודעה לא נשארת ללא מענה
+Pricing tiers:
+  - בסיסי: ₪3,500
+    - מענה לשאלות נפוצות
+    - סינון לידים ראשוני
+    - העברה לנציג אנושי
+    - שילוב CRM יחיד
+  - מקצועי ★: ₪5,500
+    - הכל מהבסיסי
+    - סוכן מכירות פעיל
+    - הצעות מחיר וסגירה
+    - פולואפ אוטומטי
+    - 2 אינטגרציות
+  - מותאם אישית: ₪7,000+
+    - הכל מהמקצועי
+    - אינטגרציה מלאה עם מערכות הליבה
+    - תרחישים מורכבים (תשלום, משלוחים)
+    - ליווי חודשי מורחב
+
+> עלויות צד ג׳ (WhatsApp API + טוקני AI): 100–500 ₪ לחודש, לפי נפח שיחות. תשלום חד-פעמי על ההקמה.
+
+### סוכן AI קולי
+סוכן AI קולי שמקבל שיחות נכנסות, יוזם יוצאות, ומתאם פגישות בעברית טבעית — מסביב לשעון. — לא לוקח חופשה.
+Audience: קליניקות רפואיות, מתווכי נדל״ן, שירותי חירום ותחזוקה, עורכי דין ורואי חשבון, חברות שירות
+Integrations: Twilio, ElevenLabs, n8n, Google Calendar, Outlook, Zoho CRM, HubSpot, MyClinic, Clio
+Starting price: ₪6,000
+Outcomes:
+- 0 שיחות שהולכות לתא קולי
+- קביעת פגישות אוטומטית מהשיחה — ישר ליומן
+- תיעוד מלא של כל שיחה ב-CRM, כולל תמלול וסיכום
+Pricing tiers:
+  - בסיסי: ₪6,000
+    - שיחות נכנסות בלבד
+    - FAQ + תיאום
+    - חיבור יומן יחיד
+  - מקצועי ★: ₪9,000
+    - נכנסות + יוצאות
+    - רב-לשוני
+    - חיבור CRM מלא
+    - תמלול וסיכום AI
+  - מותאם אישית: ₪14,000+
+    - מספר קווים
+    - תרחישי מכירה מורכבים
+    - אנליטיקס מתקדם
+    - SLA מורחב
+
+> עלות דקות דיבור: כ-0.08–0.15 ₪ לדקה (Twilio + ElevenLabs). משולם ישירות לספקים.
+
+### ניהול לידים
+מערכת שמקבלת כל ליד מכל מקור, מסננת, מדרגת ומעבירה — אפס לידים שנשכחים, אפס גיליונות Excel. — גם זה ששלח ב-03:00
+Audience: נדל״ן, קליניקות, שירותים מקצועיים, B2B, סוכנויות שיווק
+Integrations: n8n, Zoho CRM, HubSpot, Monday, Facebook Lead Ads, Google Ads, WhatsApp, Zapier
+Starting price: ₪4,000
+Outcomes:
+- תשובה ראשונית תוך פחות מ-30 שניות
+- 100% מהלידים מתועדים ב-CRM
+- איש המכירות מקבל רק לידים בעלי כוונה ברורה
+Pricing tiers:
+  - בסיסי: ₪4,000
+    - עד 2 מקורות
+    - סינון בסיסי
+    - מייל + CRM
+  - מקצועי ★: ₪7,000
+    - ללא הגבלת מקורות
+    - סינון AI
+    - וואטסאפ + CRM
+    - פולואפ אוטומטי
+    - דוחות שבועיים
+  - מותאם אישית: בהתאמה
+    - אינטגרציות מורכבות
+    - ICP מרובה
+    - אנליטיקס מתקדם
+    - ליווי חודשי
+
+### אוטומציה עסקית
+ה-CRM, הוואטסאפ, החשבוניות, המלאי, היומן — מפסיקים לעבוד בנפרד ומתחילים לזרום אחד לשני. — פעם אחת. לתמיד.
+Audience: עסקים שעובדים עם 3+ מערכות, חנויות אונליין, סוכנויות שיווק, צוותי מכירות, משרדי שירותים מקצועיים
+Integrations: n8n, Zoho, HubSpot, Monday, Pipedrive, Google Workspace, Microsoft 365, Stripe, Morning+, CardCom, Shopify, WooCommerce
+Starting price: ₪5,000
+Outcomes:
+- פחות 15+ שעות/שבוע של עבודה ידנית
+- 0 טעויות העתקה בין מערכות
+- נתונים בזמן אמת בכל מקום
+Pricing tiers:
+  - בסיסי: ₪5,000
+    - חיבור 2–3 מערכות
+    - אוטומציית לידים
+    - סנכרון CRM
+  - מקצועי ★: ₪8,000
+    - הכל מהבסיסי
+    - גבייה וחשבוניות
+    - פולואפים
+    - דשבורד KPI
+  - מותאם אישית: בהתאמה
+    - APIs מותאמים
+    - בוטי AI מורכבים
+    - אנליטיקה מתקדמת
+    - SLA
+
+> תשלום חד-פעמי. עלויות צד ג׳ (API, מנויי SaaS) משולמות על ידך ישירות.
+
+### CRM חכם
+הטמעת CRM שמתחיל לעבוד מהיום הראשון — נתונים מיובאים, אוטומציות פעילות, הצוות מאומן. — תוך שבועיים
+Audience: עסקים קטנים-בינוניים, קמעונאות, קליניקות, שירותים מקצועיים, נדל״ן, משפט, ראיית חשבון
+Integrations: Zoho CRM, HubSpot, Monday CRM, Pipedrive, n8n, WhatsApp, Gmail, Outlook, Morning+, CardCom
+Starting price: ₪2,000
+Outcomes:
+- כל הלקוחות והלידים במקום אחד
+- פעילות מתועדת אוטומטית — אפס רישום ידני
+- דוחות שאתה באמת מסתכל עליהם
+Pricing tiers:
+  - כניסה: ₪2,000
+    - הטמעה בסיסית
+    - ייבוא נתונים
+    - 1 משתמש
+    - אוטומציה ראשונית
+  - מנוע צמיחה ★: ₪4,000
+    - עד 5 משתמשים
+    - אוטומציות מובנות
+    - חיבור וואטסאפ
+    - דוחות
+  - קסטומיזציה מלאה: ₪6,000+
+    - משתמשים ללא הגבלה
+    - אינטגרציות מתקדמות
+    - תהליכים מותאמים
+    - אימונים ייעודיים
+
+### מכירות ושירות
+סוכן AI שמבצע את תהליך המכירה מקצה לקצה — מהליד הראשון עד הסגירה, 24/7. — לא שוכח פולואפ, לא לוקח עמלה
+Audience: חנויות אונליין, נדל״ן ויזמות, קליניקות ושירותי בריאות, חינוך והדרכה, שירותים מקצועיים, SaaS
+Integrations: WhatsApp, Website chat, Instagram DM, n8n, Stripe, CardCom, CRM שלך, Google Calendar
+Starting price: ₪4,000
+Outcomes:
+- סגירות מהירות יותר — זמן תגובה יורד מ-4 שעות ל-4 דקות
+- הצוות שלך מתעסק רק בלידים חמים
+- אפס לידים שנשכחים
+Pricing tiers:
+  - בסיסי: ₪4,000
+    - אוטומציית שירות לקוחות
+    - תשובות למוצר ושאלות נפוצות
+  - מקצועי ★: ₪6,000
+    - מכירה פעילה
+    - טיפול בהתנגדויות
+    - Upsell + cross-sell
+    - פולואפ אוטומטי
+  - מותאם אישית: ₪8,000+
+    - אינטגרציה מלאה
+    - מספר ערוצים
+    - תסריטי B2B מורכבים
+    - ליווי חודשי
+
+### קביעת תורים
+לקוחות קובעים, מזיזים ומבטלים פגישות בעצמם — בוואטסאפ, באתר, או בטלפון חכם. — בלי טלפון אחד.
+Audience: קליניקות שיניים ורפואה, מאמנים ומאמנות, יועצים עסקיים, סלוני יופי, מורים פרטיים, משרדי שירותים מקצועיים
+Integrations: Google Calendar, Outlook, MyClinic, ClickFunnels, Calendly, n8n, WhatsApp, Stripe, CardCom
+Starting price: ₪3,000
+Outcomes:
+- ירידה של 40–60% בפגישות שנשכחות
+- שעות מזכירות שחוזרות אליך
+- אפס פגישות כפולות
+Pricing tiers:
+  - בסיסי: ₪3,000
+    - קביעת תור בוואטסאפ
+    - תזכורות בסיסיות
+    - יומן יחיד
+  - מקצועי ★: ₪4,500
+    - שינוי ביטול עצמאי
+    - תזכורות מותאמות
+    - גביית מקדמה
+    - רשימת המתנה
+  - מותאם אישית: ₪6,000
+    - מספר יומנים ושירותים
+    - חיבור CRM
+    - לוגיקות מורכבות (קבוצות, משאבים)
+
+### חנות אוטומטית
+אוטומציה לחנויות Shopify / WooCommerce / רב-ערוצי — מניהול מלאי ועד שירות לקוחות ב-WhatsApp. — מלאי מסתנכרן. שירות לא ישן.
+Audience: חנויות Shopify, חנויות WooCommerce, מוכרים רב-ערוציים, דרופשיפינג, מותגים D2C
+Integrations: Shopify, WooCommerce, WhatsApp, n8n, Klaviyo, Mailchimp, Facebook Shop, Instagram Shop, BO/Outvio/HFD
+Starting price: ₪4,000
+Outcomes:
+- +15–30% הכנסה מגאופק עגלות נטושות
+- כל המוצרים מסתנכרנים בזמן אמת בכל הערוצים
+- זמן טיפול בהזמנה יורד ב-70%
+Pricing tiers:
+  - בסיסי: ₪4,000
+    - שחזור עגלות נטושות
+    - סטטוס הזמנה
+    - ערוץ יחיד
+  - מתקדם ★: ₪6,000
+    - סנכרון מלאי רב-ערוצי
+    - שירות AI
+    - עדכונים ללקוח
+    - דוחות
+  - פרימיום: ₪8,500
+    - Dropshipping, חוזים עם ספקים
+    - דוחות רווחיות מתקדמים
+    - אנליטיקה ב-AI
+
+### סוכני AI
+סוכן AI אוטונומי שמחליט, פועל ומדבר — כמו עובד מומחה ב-24/7. — לא רק עונה על שאלות
+Audience: נדל״ן (שאילתות על נכסים, תיאום סיורים), E-commerce (המלצות, החזרות, מעקב), קליניקות (זימון, תזכורות, מילוי טפסים), חברות שירות (פתיחת קריאות, תיאום טכנאי), ייעוץ (ניהול פגישות, פולואפ), חינוך (רישום, שאלות על קורסים)
+Integrations: OpenAI / Anthropic / Gemini, n8n, CRM (הכל), WhatsApp, Twilio, מערכות ERP, מאגרי מידע פנימיים
+Starting price: ₪15,000
+Outcomes:
+- אוטומציה של תהליכים שהיו בלתי אפשריים לבוט רגיל
+- זמן תגובה מתחת ל-10 שניות על תהליך מולטי-שלבי
+- תמיכה בכל ערוץ — לא רק בצ׳אט
+Pricing tiers:
+  - סוכן יחיד: ₪15,000
+    - 1 תהליך עסקי מורכב
+    - חיבור 3–5 כלים
+    - ליווי חודשי מ-₪350
+  - שני סוכנים משלימים ★: ₪25,000
+    - 2 תהליכים קשורים (מכירות + שירות, למשל)
+    - ידע משותף
+    - ליווי
+  - מותאם אישית: בהתאמה
+    - מערכת סוכנים
+    - אורקסטרציה
+    - התאמה לאסטרטגיה
+
+### ייעוץ טכנולוגי
+ייעוץ אוטומציה ו-AI מאפיון ועד מפת דרכים — עם תוצרים מדידים, לא PDF של 80 עמודים. — בוא נבין איפה באמת דולפים לך שעות
+Audience: עסקים שלא יודעים איפה להתחיל עם AI, חברות בצמיחה מהירה שהתהליכים ידניים, ארגונים בעיצומה של טרנספורמציה דיגיטלית, עסקים שנכוו מניסיון כושל בעבר, בעלי עסקים שאין להם זמן לבד לחקור
+Integrations: n8n, כל CRM, כלי AI, מערכות ERP, מערכות ייעודיות
+Starting price: ₪5,000
+Outcomes:
+- מפה ברורה של מקומות שדולפים זמן וכסף
+- מפת דרכים עם עדיפויות ו-ROI מוערך
+- אין אתגר של 'לא ידעתי מאיפה להתחיל'
+Pricing tiers:
+  - ייעוץ בסיסי: ₪5,000
+    - אבחון + מפת דרכים
+    - בחירת טכנולוגיה
+    - תחזית ROI
+  - ייעוץ מקיף ★: ₪12,000–15,000
+    - הכל מהבסיסי
+    - ליווי יישום 4 שבועות
+    - הדרכת צוות
+    - דוח ביצועים
+  - ייעוץ + יישום מלא: ₪20,000–25,000
+    - הכל מהמקיף
+    - יישום מלא 8 שבועות
+    - ליווי 3 חודשים אחרי השקה
+
+> כל מחיר ללא מע״מ. שיחת היכרות תמיד חינם.
+
+## Contact
+- WhatsApp: https://wa.me/972542787664
+- Email: info@automaziot.ai
+- Office IL: +972-3-7630715 · Tel Aviv, 9 Ahad Ha'am St, Shalom Tower
+- Office US: +1 (646) 760-4854
+- LinkedIn: https://www.linkedin.com/company/automaziot-ai/
+- Founder: Eyal Yakobi Miller — https://il.linkedin.com/in/eyal-yakobi-miller-aaaa50210

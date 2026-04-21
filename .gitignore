@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.env
+.env*.local
+.DS_Store
+*.log
+.vercel
+.turbo
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Claude Code — per-user settings, don't share
+.claude/settings.local.json

@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "siteName": "Automaziot AI",
+    "siteTitle": "Automaziot AI — AI agents & automation for Israeli businesses",
+    "siteDescription": "AI agents that sell, reply and book meetings in Hebrew — 24/7. Custom automation for Israeli SMBs. ROI in 3–6 months."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "caseStudies": "Case studies",
+    "blog": "Blog",
+    "news": "News",
+    "contact": "Contact",
+    "cta": "Talk to us"
+  },
+  "footer": {
+    "tagline": "Your business keeps working after you log off.",
+    "quickLinks": "Links",
+    "solutions": "Solutions",
+    "contact": "Contact",
+    "newsletter": "Stay sharp on AI",
+    "newsletterLead": "The tools, plays and market-movers working right now in Israel — delivered to your inbox every other week.",
+    "newsletterPlaceholder": "your@email.com",
+    "newsletterCta": "Subscribe",
+    "rights": "All rights reserved",
+    "policies": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "accessibility": "Accessibility",
+      "editorial": "Editorial"
+    }
+  },
+  "cta": {
+    "whatsapp": "Talk to us on WhatsApp",
+    "calcRoi": "Calculate your savings",
+    "bookConsult": "Book a free consultation",
+    "viewService": "See details",
+    "contactForm": "Send details — we'll reply within an hour"
+  },
+  "trust": {
+    "businesses": "Active Israeli businesses",
+    "hours": "Hours saved per week (avg)",
+    "roi": "Average ROI",
+    "uptime": "Agent uptime"
+  }
+}

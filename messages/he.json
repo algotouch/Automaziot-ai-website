@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "siteName": "Automaziot AI",
+    "siteTitle": "Automaziot AI — סוכני AI ואוטומציות לעסקים בישראל",
+    "siteDescription": "סוכני AI בעברית לעסקים בישראל — וואטסאפ, סוכן קול, CRM ואוטומציות. חיסכון של 15+ שעות בשבוע, ROI תוך 3–6 חודשים. החל מ-₪2,000."
+  },
+  "nav": {
+    "home": "בית",
+    "services": "שירותים",
+    "pricing": "מחירון",
+    "about": "אודות",
+    "caseStudies": "סיפורי הצלחה",
+    "blog": "בלוג",
+    "news": "חדשות",
+    "contact": "צור קשר",
+    "cta": "דברו איתנו"
+  },
+  "footer": {
+    "tagline": "העסק שלך עובד גם כשאתה לא.",
+    "quickLinks": "קישורים",
+    "solutions": "פתרונות",
+    "contact": "יצירת קשר",
+    "newsletter": "מעודכנים ב-AI",
+    "newsletterLead": "הכלים, התובנות והמעצבי-שוק שרצים כרגע בישראל — ישר לתיבה שלך, פעם בשבועיים.",
+    "newsletterPlaceholder": "המייל שלך",
+    "newsletterCta": "הרשמה",
+    "rights": "כל הזכויות שמורות",
+    "policies": {
+      "privacy": "מדיניות פרטיות",
+      "terms": "תנאי שימוש",
+      "accessibility": "הצהרת נגישות",
+      "editorial": "מדיניות עריכה"
+    }
+  },
+  "cta": {
+    "whatsapp": "דברו איתנו בוואטסאפ",
+    "calcRoi": "חשבו כמה תחסכו",
+    "bookConsult": "שריינו שיחת ייעוץ חינם",
+    "viewService": "לפרטים מלאים",
+    "contactForm": "שלחו פרטים ונחזור תוך שעה"
+  },
+  "trust": {
+    "businesses": "עסקים ישראלים פעילים",
+    "hours": "שעות נחסכות בשבוע (בממוצע)",
+    "roi": "ROI ממוצע",
+    "uptime": "זמינות הסוכנים"
+  }
+}

@@ -1,0 +1,43 @@
+# Automaziot AI
+
+> Israeli AI automation agency. We build Hebrew-native AI agents, WhatsApp
+> automations, voice agents, and CRM systems for SMBs. Tel Aviv + New York.
+> Founded by Eyal Yakobi Miller. Every agent, workflow, and integration is
+> fully owned by the client — no vendor lock-in.
+
+## About
+- [About & founder](https://www.automaziot.ai/en/about): company story, values, founder profile
+- [Editorial standards](https://www.automaziot.ai/en/editorial-standards)
+- [Accessibility statement](https://www.automaziot.ai/en/accessibility)
+
+## Services (10 total, pricing in ILS)
+- [WhatsApp AI Agent](https://www.automaziot.ai/en/services/whatsapp-agent): Hebrew-fluent agent on WhatsApp Business API, 24/7, from ₪3,500
+- [Voice AI Agent](https://www.automaziot.ai/en/services/voice-agent): inbound/outbound phone agents
+- [Lead Automation](https://www.automaziot.ai/en/services/lead-automation): ingestion, qualification, routing
+- [CRM Setup](https://www.automaziot.ai/en/services/crm-setup): Zoho/HubSpot/Monday/Pipedrive/Salesforce configuration + automation
+- [Sales Automation](https://www.automaziot.ai/en/services/sales-automation)
+- [Calendar & Scheduling](https://www.automaziot.ai/en/services/calendar-scheduling)
+- [E-commerce Automation](https://www.automaziot.ai/en/services/ecommerce-automation)
+- [Custom AI Agents](https://www.automaziot.ai/en/services/custom-agents)
+- [AI Consulting](https://www.automaziot.ai/en/services/ai-consulting)
+- [All services index](https://www.automaziot.ai/en/services)
+
+## Pricing
+- [Machine-readable pricing](https://www.automaziot.ai/pricing.md) — structured markdown tiers
+- [Pricing page](https://www.automaziot.ai/en/pricing) — full HTML pricing matrix
+- Range: ₪2,000 (entry CRM) to ₪25,000 (full AI consulting)
+- Most engagements: ₪4,000–₪15,000 one-time setup
+
+## Case studies
+- [Nadlanist AI](https://www.automaziot.ai/en/case-studies/nadlanist-ai): real-estate platform — 4× lead reply rate, <30s response time, press coverage in Walla, ICE, Maariv
+- [All case studies](https://www.automaziot.ai/en/case-studies)
+
+## Knowledge
+- [AI & automation glossary](https://www.automaziot.ai/en/glossary): definitions for AI agent, LLM, n8n, WhatsApp Business API, CRM, RPA, ROI, ICP, Webhook, Token
+- [Blog](https://www.automaziot.ai/en/blog)
+- [Press & news](https://www.automaziot.ai/en/news)
+
+## Optional
+- [Contact](https://www.automaziot.ai/en/contact)
+- [FAQ section on homepage](https://www.automaziot.ai/en#faq)
+- [Hebrew version of this file](https://www.automaziot.ai/llms.he.txt)
